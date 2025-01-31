@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tourist-Home</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="Image/title.png" type="image/x-icon" />
+  <!-- css - file -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+  <!-- fontawesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- ============================Top navbar ========================= -->
+  <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+    <div class="row gx-0">
+      <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+        <div class="d-inline-flex align-items-center" style="height:45px;">
+          <small class="me-3 text-light"><i class="fa fa-map-marked-alt me-2"></i>Punjab</small>
+          <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+91 9555660256</small>
+          <small class="me-3 text-light"><i class="fa fa-envelope-open me-2"></i>shashwatdtech@gmail.com</small>
+        </div>
+      </div>
+      <!-- social buttons -->
+      <div class="col-lg-4 text-center text-lg-end">
+        <div class="d-inline-flex align-items-center" style="height:45px;">
+          <a href="#" class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2">
+            <i class="fab fa-twitter fw-normal"></i>
+          </a>
+          <a href="#" class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2">
+            <i class="fab fa-facebook-f fw-normal"></i>
+          </a>
+          <a href="#" class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2">
+            <i class="fab fa-youtube fw-normal"></i>
+          </a>
+          <a href="#" class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2">
+            <i class="fab fa-linkedin-in fw-normal"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- ==================== Navbar ============================ -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+
+      <a class="navbar-brand fw-bold" href="#"><h1 style="color: green;">WanderVibes</h1></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active fw-bold" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold" href="#">Packages</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold" href="#">Register</a></li>
+        </ul>
+      </div>
+      <a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a>
+    </div>
+  </nav>
+
+  
+  <!-- =================== Hero Section ====================== -->
+  <div class="container-fluid gradient-bg py-5 mb-5 hero-header">
+    <div class="container py-5">
+      <div class="row justify-content-center py-5">
+        <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+          <h1 class="display-3 text-white mb-3 fw-bold">Journey to Unforgettable Moments</h1>
+          <p class="fs-4 text-white mb-4 fw-bold">Explore the world’s most beautiful destinations and create memories to last a lifetime.</p>
+          <div class="position-relative w-75 mx-auto">
+            <input type="text" class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" placeholder="Eg: Kerala" />
+            <button type="button" class="btn position-absolute top-0 end-0 me-2 search-btn" style="margin-top: 7px">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!-- =================================About-Section ========================================= -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6" style="min-height: 400px">
+          <div class="position-relative h-100">
+            <img src="Image/mo.png" alt="" style="object-fit: cover" class="img-fluid position-relative w-100 h-100" />
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h6 class="section-title bg-white text-start text-primary pe-3">
+            About Us
+          </h6>
+          <h1 class="mb-4">
+            Welcome to <span class="text-primary">WanderVibes</span>
+          </h1>
+          <p class="mb-4">
+            WanderVibe is your ultimate guide to the world’s most captivating travel destinations. We offer tailored vacation packages designed to create unforgettable memories for you and your loved ones. From serene beaches to breathtaking mountains, our goal is to make your journey as seamless and enjoyable as possible.
+          </p>
+          <div class="mb-4">
+            Our expert team ensures that every detail is taken care of, from booking flights to arranging luxurious stays. Whether you’re looking for a relaxing retreat or an adventurous exploration, we have something for every traveler. Join us on a journey to discover the beauty and culture of diverse destinations across the globe.
+          </div>
+          <div class="btn btn-primary py-3 px-5 mt-2">Read More</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- ================================= Service Section =========================================== -->
+<div class="container-xxl py-5">
+  <div class="container">
+    <div class="text-center">
+      <h6 class="section-title bg-white text-center text-primary px-3">
+        Services
+      </h6>
+      <h1 class="mb-5">Our Services</h1>
+    </div>
+    <div class="row g-4">
+      <!-- Row 1 (Existing 4 Icons) -->
+      <div class="col-lg-3 col-sm-6">
+        <div class="service-item rounded pt-3">
+          <div class="p-4">
+            <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
+            <h5>Hotel Reservation</h5>
+            <p>
+              We offer a seamless hotel reservation service, ensuring you get the best accommodations
+              worldwide. Enjoy luxurious stays with great amenities at competitive prices.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="service-item rounded pt-3">
+          <div class="p-4">
+            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+            <h5>Worldwide Tours</h5>
+            <p>
+              Explore the world with our curated worldwide tour packages. From exotic beaches to cultural
+              landmarks, we provide you with the best experiences tailored to your preferences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="service-item rounded pt-3">
+          <div class="p-4">
+            <i class="fa fa-3x fa-user text-primary mb-4"></i>
+            <h5>Travel Guides</h5>
+            <p>
+              Our expert travel guides are here to ensure you experience destinations like never before.
+              They’ll take you through hidden gems, provide valuable insights, and make your trip unforgettable.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="service-item rounded pt-3">
+          <div class="p-4">
+            <i class="fa fa-3x fa-cog text-primary mb-4"></i>
+            <h5>Event Management</h5>
+            <p>
+              From corporate events to destination weddings, our event management services handle everything.
+              We ensure seamless execution and create memorable experiences for you and your guests.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Row 2 (New 4 Different Icons) -->
+      <div class="col-lg-3 col-sm-6">
+        <div class="service-item rounded pt-3">
+          <div class="p-4">
+            <i class="fa fa-3x fa-car text-primary mb-4"></i>
+            <h5>Transportation Services</h5>
+            <p>
+              We provide comfortable and reliable transportation services, including airport transfers, city tours,
+              and private rides. Enjoy smooth travel experiences with our modern vehicles and experienced drivers.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="service-item rounded pt-3">
+          <div class="p-4">
+            <i class="fa fa-3x fa-ship text-primary mb-4"></i>
+            <h5>Cruise & Water Tours</h5>
+            <p>
+              Set sail on an unforgettable cruise experience. Our water tours take you to scenic islands and breathtaking
+              coastlines, offering a unique way to explore exotic destinations.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="service-item rounded pt-3">
+          <div class="p-4">
+            <i class="fa fa-3x fa-camera text-primary mb-4"></i>
+            <h5>Photography Services</h5>
+            <p>
+              Capture your most precious memories with our professional photography services. Whether it's family vacations
+              or destination weddings, we'll help you preserve your journey with stunning photos.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="service-item rounded pt-3">
+          <div class="p-4">
+            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+            <h5>Culinary Tours</h5>
+            <p>
+              Discover the world through its flavors. Our culinary tours introduce you to authentic regional cuisine, providing
+              you with an unforgettable gastronomic adventure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- ======================================= Packages Section ========================================== -->
+  <div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="section-title bg-white text-center text-primary px-3">
+                Packages
+            </h6>
+            <h1 class="mb-5">Awesome Packages</h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <!-- Kerala Package -->
+            <div class="col-lg-4 col-md-6">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img src="Image/sh.jpg" alt="" class="img-fluid" />
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                            Kerala
+                        </small>
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-calendar-alt text-primary me-2"></i> 5 days
+                        </small>
+                        <small class="flex-fill text-center py-2">
+                            <i class="fa fa-user text-primary me-2"></i> Person
+                        </small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">$350.00</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>
+                            Explore the beautiful landscapes of Kerala, known for its serene beaches, tranquil backwaters, and rich culture. Enjoy a rejuvenating 5-day vacation filled with activities, sightseeing, and relaxation.
+                        </p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 30px 0 0 30px">Read More</a>
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Manali Package -->
+            <div class="col-lg-4 col-md-6">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img src="https://cdn.pixabay.com/photo/2021/11/21/21/14/mountain-6815304_1280.jpg" alt="" class="img-fluid" />
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                            Manali
+                        </small>
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-calendar-alt text-primary me-2"></i> 4 days
+                        </small>
+                        <small class="flex-fill text-center py-2">
+                            <i class="fa fa-user text-primary me-2"></i> Person
+                        </small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">$400.00</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>
+                            Discover the scenic beauty of Manali, nestled in the majestic Himalayas. Experience the perfect blend of adventure, relaxation, and nature with a 4-day trip filled with breathtaking views and outdoor activities.
+                        </p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 30px 0 0 30px">Read More</a>
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Thailand Package -->
+            <div class="col-lg-4 col-md-6">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Assiniboine_Star_Light_%285019480602%29.jpg/1200px-Assiniboine_Star_Light_%285019480602%29.jpg" alt="" class="img-fluid" />
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                            Thailand
+                        </small>
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-calendar-alt text-primary me-2"></i> 6 days
+                        </small>
+                        <small class="flex-fill text-center py-2">
+                            <i class="fa fa-user text-primary me-2"></i> Person
+                        </small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">$500.00</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>
+                            Thailand offers an unforgettable tropical getaway with its beautiful beaches, vibrant nightlife, and rich culture. Immerse yourself in the exotic experience of Thailand for 6 exciting days full of adventure and relaxation.
+                        </p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 30px 0 0 30px">Read More</a>
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paris Package -->
+            <div class="col-lg-4 col-md-6">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D" alt="" class="img-fluid" />
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                            Paris
+                        </small>
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-calendar-alt text-primary me-2"></i> 4 days
+                        </small>
+                        <small class="flex-fill text-center py-2">
+                            <i class="fa fa-user text-primary me-2"></i> Person
+                        </small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">$600.00</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>
+                            Explore the romantic streets of Paris, home to world-renowned landmarks like the Eiffel Tower, the Louvre Museum, and the charming cafés. Enjoy a 4-day getaway full of culture, shopping, and sightseeing.
+                        </p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 30px 0 0 30px">Read More</a>
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dubai Package -->
+            <div class="col-lg-4 col-md-6">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img src="https://www.1theterrace.co.uk/images/gallery/IMG_2197-1200px-800px.jpg" alt="" class="img-fluid" />
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                            Dubai
+                        </small>
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-calendar-alt text-primary me-2"></i> 5 days
+                        </small>
+                        <small class="flex-fill text-center py-2">
+                            <i class="fa fa-user text-primary me-2"></i> Person
+                        </small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">$700.00</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>
+                            Discover the glitz and glamour of Dubai with its iconic skyscrapers, luxurious shopping malls, and world-class entertainment. Enjoy a 5-day experience filled with adventure, relaxation, and culture.
+                        </p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 30px 0 0 30px">Read More</a>
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bali Package -->
+            <div class="col-lg-4 col-md-6">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img src="https://rolleatusa.com/wp-content/uploads/2024/01/30-facts-about-biodiversity-1200px-X-800px.jpg" alt="" class="img-fluid" />
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                            Bali
+                        </small>
+                        <small class="flex-fill text-center border-end py-2">
+                            <i class="fa fa-calendar-alt text-primary me-2"></i> 7 days
+                        </small>
+                        <small class="flex-fill text-center py-2">
+                            <i class="fa fa-user text-primary me-2"></i> Person
+                        </small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">$450.00</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>
+                            Bali offers a unique blend of tropical landscapes, serene beaches, and vibrant culture. Immerse yourself in a 7-day experience filled with beautiful temples, adventure, and relaxation in paradise.
+                        </p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 30px 0 0 30px">Read More</a>
+                            <a href="" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <!-- ==================================== Booking Section ========================================= -->
+  <div class="container-xxl py-5">
+    <div class="container">
+        <div class="booking p-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-6 text-white">
+                    <h6 class="text-white text-uppercase">Booking</h6>
+                    <h1 class="text-white mb-4">Online Booking</h1>
+                    <p class="mb-4">Plan your travel with ease by booking online. Whether you are looking for a weekend getaway or a quick tour, we offer a variety of destinations to choose from. Our booking platform ensures a smooth and hassle-free experience from start to finish.</p>
+                    <p class="mb-4">Select your destination, preferred date and time, and make special requests to customize your journey. We prioritize customer satisfaction, ensuring that every detail of your booking is handled professionally and promptly.</p>
+                    <a href="" class="btn btn-outline-light py-3 px-5 mt-2">Read More</a>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="text-white mb-4">Book A Tour</h1>
+                    <form action="" method="POST">
+                        <div class="row g-3">
+
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control bg-transparent border border-2 border-white" id="name" placeholder="Your Name" required>
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control bg-transparent border border-2 border-white" id="email" placeholder="Your Email" required>
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating" id="date3">
+                                    <input type="datetime-local" class="form-control bg-transparent border border-2 border-white" id="datetime" required>
+                                    <label for="datetime">Date & Time</label>
+                                </div>
+                            </div>
+
+                            <!-- Select box -->
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select name="destination" id="select1" class="form-select bg-transparent border border-2 border-white" required>
+                                        <option value="" disabled selected>Select Destination</option>
+                                        <option value="1">Paris</option>
+                                        <option value="2">London</option>
+                                        <option value="3">New York</option>
+                                    </select>
+                                    <label for="select1">Destination</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control bg-transparent border border-2 border-white" placeholder="Special Request" id="message" style="height:100px;"></textarea>
+                                    <label for="message">Special Request</label>
+                                </div>
+                            </div>
+
+                            <!-- button -->
+                            <div class="col-12">
+                                <button class="btn btn-outline-light w-100 py-3" type="submit">Book Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  
+  <!-- ================================= Process Start ====================================== -->
+
+  <div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center pb-4">
+            <h6 class="section-title bg-white text-center text-primary px-3">Process</h6>
+            <h1 class="mb-5">Easy Steps</h1>
+        </div>
+
+        <div class="row gy-5 gx-4 justify-content-center">
+
+            <div class="col-lg-4 col-sm-6 text-center pt-4">
+                <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                    <div
+                        class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                        style="width: 100px; height: 100px;">
+                        <i class="fa fa-map-marker-alt fa-3x text-white "></i>
+                    </div>
+                    <h5 class="mt-4">Choose A Destination</h5>
+                    <hr class="w-25 mx-auto bg-primary mt-0">
+
+                    <p class="mb-0">Browse through our wide range of travel destinations. Whether you prefer exploring historical cities, relaxing at scenic beaches, or experiencing vibrant cultures, we have something for everyone. Select your perfect destination for your next adventure!</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 text-center pt-4">
+                <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                    <div
+                        class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                        style="width: 100px; height: 100px;">
+                        <i class="fa fa-calendar-alt fa-3x text-white "></i>
+                    </div>
+                    <h5 class="mt-4">Choose Your Travel Date</h5>
+                    <hr class="w-25 mx-auto bg-primary mt-0">
+
+                    <p class="mb-0">Select the date and time that works best for you. We offer flexible schedules to ensure that you can enjoy your tour at your convenience. Choose a date that suits your plans and get ready to explore!</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 text-center pt-4">
+                <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                    <div
+                        class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                        style="width: 100px; height: 100px;">
+                        <i class="fa fa-check-circle fa-3x text-white "></i>
+                    </div>
+                    <h5 class="mt-4">Confirm Your Booking</h5>
+                    <hr class="w-25 mx-auto bg-primary mt-0">
+
+                    <p class="mb-0">Once you've chosen your destination and travel date, proceed to confirm your booking. Our platform provides a seamless booking experience, ensuring that everything is set for your journey. Receive a confirmation and prepare for your exciting adventure!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- ================================ Team Section ================================= -->
+
+  <div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="section-title bg-white text-center text-primary px-3">Travel Guide</h6>
+            <h1 class="mb-5">Meet Our Guides</h1>
+        </div>
+        <div class="row g-4">
+
+            <!-- Guide 1 - Gurav -->
+            <div class="col-lg-3 col-md-6">
+                <div class="team-item">
+                    <div class="overflow-hidden">
+                        <img src="Image\sd.jpg" alt="Travel Guide" class="img-fluid">
+                    </div>
+
+                    <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Gurav</h5>
+                        <small>Kerela</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Guide 2 - Abhishek -->
+            <div class="col-lg-3 col-md-6">
+                <div class="team-item">
+                    <div class="overflow-hidden">
+                        <img src="Image\sd.jpg" alt="Travel Guide" class="img-fluid">
+                    </div>
+
+                    <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Abhishek</h5>
+                        <small> Manali</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Guide 3 - Kunal -->
+            <div class="col-lg-3 col-md-6">
+                <div class="team-item">
+                    <div class="overflow-hidden">
+                        <img src="Image\sd.jpg" alt="Travel Guide" class="img-fluid">
+                    </div>
+
+                    <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Kunal</h5>
+                        <small> Thailand </small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Guide 4 - Narsing -->
+            <div class="col-lg-3 col-md-6">
+                <div class="team-item">
+                    <div class="overflow-hidden">
+                        <img src="Image\sd.jpg" alt="Travel Guide" class="img-fluid">
+                    </div>
+
+                    <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="btn btn-square mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Narsing</h5>
+                        <small> Paris </small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+   <!-- ======================== Testimonial section =========================== -->
+   <div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+            <h1 class="mb-5">Our Clients Say!</h1>
+        </div>
+  
+        <!-- Owl Carousel for Testimonials -->
+        <div class="owl-carousel testimonial-carousel position-relative">
+           
+            <div class="testimonial-item bg-white text-center border p-4">
+                <img src="Image/sd.jpg" alt="John Doe" class="bg-white rounded-circle shadow p-1 mx-auto mb-3" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">John Doe</h5>
+                <p>New York, USA</p>
+                <p class="mb-0">"I had an amazing experience with this travel agency! The guides were knowledgeable and helped us explore the most beautiful locations in New York. Highly recommend their services!"</p>
+            </div>
+  
+            <div class="testimonial-item bg-white text-center border p-4">
+                <img src="Image/sd.jpg" alt="Jane Smith" class="bg-white rounded-circle shadow p-1 mx-auto mb-3" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Jane Smith</h5>
+                <p>London, UK</p>
+                <p class="mb-0">"Our trip to London was unforgettable! The personalized tour made everything so much easier and enjoyable. The guides were friendly and really knew their stuff. Will definitely book again!"</p>
+            </div>
+  
+            <div class="testimonial-item bg-white text-center border p-4">
+                <img src="Image/sd.jpg" alt="Michael Lee" class="bg-white rounded-circle shadow p-1 mx-auto mb-3" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Michael Lee</h5>
+                <p>Tokyo, Japan</p>
+                <p class="mb-0">"Visiting Tokyo was a dream come true, and thanks to the excellent guidance and seamless planning, we got to experience the culture in a way we never could have on our own. Fantastic service!"</p>
+            </div>
+  
+            <div class="testimonial-item bg-white text-center border p-4">
+                <img src="Image/sd.jpg" alt="Emily Johnson" class="bg-white rounded-circle shadow p-1 mx-auto mb-3" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Emily Johnson</h5>
+                <p>Paris, France</p>
+                <p class="mb-0">"The team provided such an enriching experience during our trip to Paris. We were able to visit hidden gems that you wouldn’t find on a typical tour. A great experience overall!"</p>
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+  <!-- =========================================== Footer-section ====================================== -->
+<div class="container fluid bg-dark text-light footer pt-5 mt-5">
+  <div class="container py-5">
+      <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-white mb-3">Company</h4>
+              <a href="" class="btn btn-link">About Us</a>
+              <a href="" class="btn btn-link">Contact Us</a>
+              <a href="" class="btn btn-link">Privacy Policy</a>
+              <a href="" class="btn btn-link">Terms and Conditions</a>
+              <a href="" class="btn btn-link">FAQ & Help</a>
+              <a href="" class="btn btn-link">Careers</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-white mb-3">Contact</h4>
+              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Punjab, India</p>
+              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9555660256</p>
+              <p class="mb-2"><i class="fa fa-envelope me-3"></i>shashwatdtech@gmail.com</p>
+
+              <!-- Social icon  -->
+              <div class="flex pt-2">
+                  <a href="" class="btn btn-outline-light btn-social">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="btn btn-outline-light btn-social">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="" class="btn btn-outline-light btn-social">
+                      <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="" class="btn btn-outline-light btn-social">
+                      <i class="fab fa-linkedin-in"></i>
+                  </a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-white mb-3">Gallery</h4>
+              <div class="row g-2 pt-2">
+                  <div class="col-4">
+                      <img src="Image\sd.jpg" alt="" class="img-fluid bg-light p-1">
+                  </div>
+                  <div class="col-4">
+                      <img src="Image\sd.jpg" alt="" class="img-fluid bg-light p-1">
+                  </div>
+                  <div class="col-4">
+                      <img src="Image\sd.jpg" alt="" class="img-fluid bg-light p-1">
+                  </div>
+                  <div class="col-4">
+                      <img src="Image\sd.jpg" alt="" class="img-fluid bg-light p-1">
+                  </div>
+                  <div class="col-4">
+                      <img src="Image\sd.jpg" alt="" class="img-fluid bg-light p-1">
+                  </div>
+                  <div class="col-4">
+                      <img src="Image\sd.jpg" alt="" class="img-fluid bg-light p-1">
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-white mb-3">Newsletter</h4>
+              <p>Stay updated with the latest news, offers, and updates from Mystery Code! Sign up for our newsletter and never miss out on important announcements.</p>
+              <div class="position-relative mx-auto" style="max-width:400px;">
+                  <input type="text" class="form-control border-primary w-100 py-3 ps-4 pe-5" placeholder="Your Email">
+                  <button class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2" type="button">Signup</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- copyright -->
+  <div class="container">
+      <div class="copyright">
+          <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">&copy; <a href="" class="border-bottom">Mystery Code</a> | All Rights Reserved</div>
+              <div class="col-md-6 text-center text-md-end">
+                  <div class="footer-menu">
+                      <a href="" class="">Home</a>
+                      <a href="" class="">Cookies Policy</a>
+                      <a href="" class="">Help</a>
+                      <a href="" class="">FAQs</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- ==================== Scripts ============================ -->
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+<!-- Main Custom JavaScript (Ensure it's last) -->
+<script src="js/main.js"></script> 
+
+</body>
+</html>
